@@ -1,0 +1,31 @@
+{
+  "name": "rcheck-ts",
+  "version": "1.2.1",
+  "description": "Runtime validation",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "lint": "tsc --noEmit -p . && tslint --project . ",
+    "test": "jest",
+    "prepublishOnly": "gulp build"
+  },
+  "author": "redforks@gmail.com",
+  "license": "MIT",
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "mytslint": "^1.5.0"
+  }
+}

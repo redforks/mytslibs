@@ -1,0 +1,6 @@
+{
+  "extends": "mytslint/tsconfig",
+  "compilerOptions": {
+    "outDir": "./lib"
+  }
+}
