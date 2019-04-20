@@ -1024,22 +1024,17 @@
   resolved "http://registry.npm.taobao.org/@types/jest-diff/download/@types/jest-diff-20.0.1.tgz#35cc15b9c4f30a18ef21852e255fdb02f6d59b89"
   integrity sha1-NcwVucTzChjvIYUuJV/bAvbVm4k=
 
-"@types/jest@^24.0.11", "@types/jest@^24.0.6":
+"@types/jest@^24.0.11":
   version "24.0.11"
   resolved "http://registry.npm.taobao.org/@types/jest/download/@types/jest-24.0.11.tgz#1f099bea332c228ea6505a88159bfa86a5858340"
   integrity sha1-Hwmb6jMsIo6mUFqIFZv6hqWFg0A=
   dependencies:
     "@types/jest-diff" "*"
 
-"@types/node@^11.13.6", "@types/node@^11.9.5":
+"@types/node@^11.13.6":
   version "11.13.6"
   resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-11.13.6.tgz#37ec75690830acb0d74ce3c6c43caab787081e85"
   integrity sha1-N+x1aQgwrLDXTOPGxDyqt4cIHoU=
-
-"@types/ramda@^0.25.50":
-  version "0.25.51"
-  resolved "http://registry.npm.taobao.org/@types/ramda/download/@types/ramda-0.25.51.tgz#d5421d0e190c56c64c112a761a85782fc971409d"
-  integrity sha1-1UIdDhkMVsZMESp2GoV4L8lxQJ0=
 
 "@types/ramda@^0.26.7":
   version "0.26.7"
@@ -4257,7 +4252,7 @@ jest-worker@^24.6.0:
     merge-stream "^1.0.1"
     supports-color "^6.1.0"
 
-jest@^24.1.0, jest@^24.7.1:
+jest@^24.7.1:
   version "24.7.1"
   resolved "http://registry.npm.taobao.org/jest/download/jest-24.7.1.tgz#0d94331cf510c75893ee32f87d7321d5bf8f2501"
   integrity sha1-DZQzHPUQx1iT7jL4fXMh1b+PJQE=
@@ -4987,11 +4982,6 @@ mute-stream@~0.0.4:
   version "0.0.8"
   resolved "http://registry.npm.taobao.org/mute-stream/download/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha1-FjDEKyJR/4HiooPelqVJfqkuXg0=
-
-mytslint@^1.4.0:
-  version "1.5.0"
-  resolved "http://registry.npm.taobao.org/mytslint/download/mytslint-1.5.0.tgz#a99b7bd9d3fb9937e9d80dad1be86ab4db613f93"
-  integrity sha1-qZt72dP7mTfp2A2tG+hqtNthP5M=
 
 nan@^2.12.1:
   version "2.13.2"
@@ -6960,7 +6950,7 @@ trim-right@^1.0.1:
   resolved "http://registry.npm.taobao.org/trim-right/download/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
-ts-jest@^24.0.0, ts-jest@^24.0.2:
+ts-jest@^24.0.2:
   version "24.0.2"
   resolved "http://registry.npm.taobao.org/ts-jest/download/ts-jest-24.0.2.tgz#8dde6cece97c31c03e80e474c749753ffd27194d"
   integrity sha1-jd5s7Ol8McA+gOR0x0l1P/0nGU0=
@@ -6980,7 +6970,7 @@ tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "http://registry.npm.taobao.org/tslib/download/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha1-1+TdeSRdhUKMTX5IIqeZF5VMooY=
 
-tslint@^5.12.1, tslint@^5.16.0:
+tslint@^5.16.0:
   version "5.16.0"
   resolved "http://registry.npm.taobao.org/tslint/download/tslint-5.16.0.tgz#ae61f9c5a98d295b9a4f4553b1b1e831c1984d67"
   integrity sha1-rmH5xamNKVuaT0VTsbHoMcGYTWc=
@@ -7030,7 +7020,7 @@ typedarray@^0.0.6:
   resolved "http://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.2.4, typescript@^3.4.4:
+typescript@^3.4.4:
   version "3.4.4"
   resolved "http://registry.npm.taobao.org/typescript/download/typescript-3.4.4.tgz#aac4a08abecab8091a75f10842ffa0631818f785"
   integrity sha1-qsSgir7KuAkadfEIQv+gYxgY94U=

@@ -1,0 +1,145 @@
+{
+  "rules": {
+    "arrow-return-shorthand": [true, "multiline"],
+    "callable-types": true,
+    "class-name": true,
+    "comment-format": [true, "check-space"],
+    "curly": true,
+    "deprecation": {
+      "severity": "warn"
+    },
+    "eofline": true,
+    "forin": true,
+    "import-blacklist": [true, "rxjs/Rx"],
+    "import-spacing": true,
+    "indent": [true, "spaces"],
+    "interface-over-type-literal": true,
+    "label-position": true,
+    "max-line-length": [true, 140],
+    "member-access": [true, "no-public"],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "static-field",
+          "instance-field",
+          "static-method",
+          "instance-method"
+        ]
+      }
+    ],
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-super": true,
+    "no-duplicate-variable": [true, "check-parameters"],
+    "no-duplicate-imports": true,
+    "no-empty": true,
+    "no-empty-interface": true,
+    "no-eval": true,
+    "no-inferrable-types": [true, "ignore-params"],
+    "no-non-null-assertion": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": false,
+    "no-string-throw": true,
+    "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": true,
+    "no-unnecessary-initializer": true,
+    "no-unused-expression": true,
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
+    "object-literal-sort-keys": false,
+    "object-literal-shorthand": true,
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-catch",
+      "check-else",
+      "check-whitespace"
+    ],
+    "prefer-const": true,
+    "prefer-readonly": true,
+    "quotemark": [true, "single"],
+    "radix": true,
+    "semicolon": [true, "always"],
+    "triple-equals": [true, "allow-null-check"],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "unified-signatures": true,
+    "variable-name": false,
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ],
+    "no-floating-promises": true,
+    "no-parameter-reassignment": true,
+    "no-unnecessary-type-assertion": true,
+    "prefer-for-of": true,
+    "await-promise": true,
+    "function-constructor": true,
+    "no-implicit-dependencies": true,
+    "no-invalid-template-strings": true,
+    "no-invalid-this": [true, "check-function-in-method"],
+    "no-misused-new": true,
+    "no-return-await": true,
+    "no-this-assignment": true,
+    "no-unsafe-finally": true,
+    "prefer-object-spread": true,
+    "use-default-type-parameter": true,
+    "use-isnan": true,
+    "unnecessary-constructor": true,
+    "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "no-unnecessary-class": [
+      true,
+      "allow-constructor-only",
+      "allow-static-only",
+      "allow-empty-class"
+    ],
+    "adjacent-overload-signatures": true,
+    "prefer-function-over-method": [true, "allow-public", "allow-protected"],
+    "no-unbound-method": [true, "ignore-static"],
+    "new-parens": true,
+    "prefer-method-signature": true,
+    "no-void-expression": true,
+    "return-undefined": true,
+    "only-arrow-functions": [
+      true,
+      "allow-declarations",
+      "allow-named-functions"
+    ],
+    "no-unnecessary-callback-wrapper": true,
+    "unnecessary-bind": true,
+    "promise-function-async": true,
+    "one-variable-per-declaration": [true, "ignore-for-loop"],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "case-insensitive",
+        "named-imports-order": "case-insensitive",
+        "grouped-imports": false
+      }
+    ],
+    "no-require-imports": true,
+    "no-default-import": true,
+    "no-default-export": true,
+    "no-reference": true,
+    "array-type": [true, "array-simple"],
+    "object-literal-key-quotes": [true, "as-needed"],
+    "no-consecutive-blank-lines": true
+  }
+}

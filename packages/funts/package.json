@@ -7,26 +7,17 @@
   "author": "redforks@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "mytslint": "^1.5.0",
     "ramda": "^0.26.0"
-  },
-  "devDependencies": {
-    "@types/jest": "^24.0.6",
-    "@types/node": "^11.9.5",
-    "@types/ramda": "^0.25.50",
-    "jest": "^24.1.0",
-    "mytslint": "^1.4.0",
-    "ts-jest": "^24.0.0",
-    "tslint": "^5.12.1",
-    "typescript": "^3.2.4"
   },
   "scripts": {
     "prepublishOnly": "gulp build",
     "lint": "tsc --noEmit -p . && tslint --project . ",
     "test": "jest"
   },
-  "files": {
+  "files": [
     "lib"
-  },
+  ],
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "ts-jest"

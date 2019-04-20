@@ -1,0 +1,28 @@
+{
+  "extends": "./tslint.json",
+  "rulesDirectory": ["codelyzer"],
+  "rules": {
+    "no-output-on-prefix": true,
+    "use-input-property-decorator": true,
+    "use-output-property-decorator": true,
+    "use-host-property-decorator": true,
+    "no-input-rename": true,
+    "no-output-rename": true,
+    "use-life-cycle-interface": true,
+    "use-pipe-transform-interface": true,
+    "component-class-suffix": true,
+    "directive-class-suffix": true,
+    "banana-in-box": true,
+    "contextual-life-cycle": true,
+    "decorator-not-allowed": true,
+    "pipe-impure": true,
+    "templates-no-negated-async": true,
+    "no-conflicting-life-cycle-hooks": true,
+    "no-output-named-after-standard-event": true,
+    "no-unused-css": true,
+    "prefer-output-readonly": true,
+    "use-pipe-decorator": true,
+    "use-view-encapsulation": true,
+    "no-queries-parameter": true
+  }
+}

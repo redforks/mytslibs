@@ -1,0 +1,8 @@
+{
+  "name": "mytslint",
+  "version": "1.5.0",
+  "description": "my tslint configuration",
+  "main": "tslint.json",
+  "author": "redforks@gmail.com",
+  "license": "MIT"
+}

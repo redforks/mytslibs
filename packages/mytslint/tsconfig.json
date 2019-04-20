@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "downlevelIteration": true,
+    "lib": ["es2016", "dom"],
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
+}
