@@ -1,0 +1,7 @@
+{
+  "extends": "mytslint/tsconfig",
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "./lib"
+  }
+}

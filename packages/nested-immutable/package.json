@@ -1,0 +1,43 @@
+{
+  "name": "nested-immutable",
+  "version": "1.2.2",
+  "description": "Nested immutable structure",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "gulp build",
+    "lint": "tsc --noEmit -p . && yarn tslint -p .",
+    "prepublishOnly": "gulp build"
+  },
+  "repository": "https://github.com/redforks/nested-immutable",
+  "author": "redforks",
+  "license": "MIT",
+  "devDependencies": {
+    "mytslint": "^1.5.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "peerDependencies": {
+    "ramda": "^0.26.0",
+    "ramda-adjunct": "^2.16.1",
+    "tslib": "^1.9.3"
+  },
+  "dependencies": {
+    "funts": "^1.7.0",
+    "ramda-adjunct": "^2.17.0",
+    "rcheck-ts": "^1.2.1"
+  }
+}
