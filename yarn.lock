@@ -2961,6 +2961,13 @@ function-bind@^1.1.1:
   resolved "http://registry.npm.taobao.org/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
 
+funts@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.npm.taobao.org/funts/download/funts-1.7.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffunts%2Fdownload%2Ffunts-1.7.0.tgz#0d8f1e2f158958b80999f84debd405fe9617fd34"
+  integrity sha1-DY8eLxWJWLgJmfhN69QF/pYX/TQ=
+  dependencies:
+    ramda "^0.26.0"
+
 gauge@~2.7.3:
   version "2.7.4"
   resolved "http://registry.npm.taobao.org/gauge/download/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
@@ -5888,6 +5895,11 @@ ramda-adjunct@^2.17.0:
   version "2.17.0"
   resolved "http://registry.npm.taobao.org/ramda-adjunct/download/ramda-adjunct-2.17.0.tgz#a74254361fec763073afd9ef94606f09e4776d0a"
   integrity sha1-p0JUNh/sdjBzr9nvlGBvCeR3bQo=
+
+ramda@^0.26.0:
+  version "0.26.1"
+  resolved "https://registry.npm.taobao.org/ramda/download/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
+  integrity sha1-jUE1HrgRHFU1Nhf8O7/62OTTXQY=
 
 rc@^1.2.7:
   version "1.2.8"

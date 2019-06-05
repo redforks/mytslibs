@@ -1,6 +1,6 @@
 {
   "name": "tsmisc",
-  "version": "1.8.0",
+  "version": "2.0.0",
   "description": "Misc functions for typescript",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
@@ -26,7 +26,7 @@
     ]
   },
   "dependencies": {
-    "funts": "^1.6.2",
+    "funts": "^2.0.0",
     "mytslint": "^1.5.0"
   },
   "peerDependencies": {
