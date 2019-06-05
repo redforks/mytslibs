@@ -1,8 +1,9 @@
 {
   "name": "tsmisc",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Misc functions for typescript",
   "main": "lib/index.js",
+  "module": "lib/es/index.js",
   "types": "lib/index.d.js",
   "author": "redforks@gmail.com",
   "license": "MIT",
@@ -28,9 +29,6 @@
   "dependencies": {
     "funts": "^2.0.0",
     "mytslint": "^1.5.0"
-  },
-  "peerDependencies": {
-    "ramda": "~0.26.0"
   },
   "files": [
     "lib"
