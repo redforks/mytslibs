@@ -5889,11 +5889,6 @@ ramda-adjunct@^2.17.0:
   resolved "http://registry.npm.taobao.org/ramda-adjunct/download/ramda-adjunct-2.17.0.tgz#a74254361fec763073afd9ef94606f09e4776d0a"
   integrity sha1-p0JUNh/sdjBzr9nvlGBvCeR3bQo=
 
-ramda@^0.26.0:
-  version "0.26.1"
-  resolved "http://registry.npm.taobao.org/ramda/download/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
-  integrity sha1-jUE1HrgRHFU1Nhf8O7/62OTTXQY=
-
 rc@^1.2.7:
   version "1.2.8"
   resolved "http://registry.npm.taobao.org/rc/download/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"

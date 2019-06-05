@@ -1,5 +1,3 @@
-import { repeat, zipObj } from 'ramda';
-
 export * from './actFuncs';
 
 export type DeepPartial<T> = {
@@ -45,11 +43,4 @@ export type Nullish<T> = {
 export function dump<T>(v: T): T {
   console.log(v);
   return v;
-}
-
-/**
- * Create an object with specified keys, with the same value.
- */
-export function toKeyedObject<T>(v: T, keys: string[]): Record<string, T> {
-  return zipObj(keys, repeat(v, keys.length));
 }
